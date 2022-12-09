@@ -1,0 +1,256 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styling below */
+
+#navLogo {
+    width: 350px;
+    height: auto; 
+}
+
+#plusLogo {
+    height: 50px; 
+    width: auto; 
+}
+
+#minusLogo {
+    height: 30px; 
+    width: auto; 
+}
+
+.navbar {
+    background-color: #a3b18a; 
+    display: flex; 
+    align-items: center;
+    width: 100%; 
+    margin: 0px; 
+    padding: 0px; 
+    height: 80px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.leftNav {
+    display: flex; 
+    float: left; 
+    padding-left: 10px; 
+}
+
+.rightNav {
+    display: flex; 
+    float: right; 
+    padding-right: 10px; 
+}
+
+.navSpace {
+    width: 100%; 
+}
+
+.spacer {
+    width: 100%; 
+    height: 100px; 
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #337233;
+    height: 250px; 
+    width: 250px; 
+    border-radius: 30px; 
+    margin-left: 50px; 
+    margin-right: 50px; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container {
+    display: flex; 
+    flex: 0 0 0 33%; 
+    flex-wrap: wrap; 
+}
+
+.leafButton {
+    background-color: transparent; 
+    outline: none; 
+    border: none;
+    /* fix the position of my leaf  */
+}
+#leaf {
+    width: 40px; 
+    height: auto; 
+}
+
+.formWrapper {
+    display: flex;
+    background-color: #337233;
+    height: 500px; 
+    width: 700px; 
+    border-radius: 30px; 
+    margin: auto; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSection {
+    height: 350px; 
+    width: 550px; 
+    background-color: #a3b18a; 
+    margin: auto; 
+    border-radius: 30px; 
+    line-height: 1.8;
+}
+
+.formSection input {
+    float: right; 
+    margin-right: 10px; 
+    border-radius: 3px; 
+    padding-right: 150px; 
+}
+
+.formText {
+    font-family: roboto slab; 
+    color:rgb(40, 38, 38);
+    padding-left: 20px; 
+    padding-top: 100px; 
+    padding-bottom: 100px; 
+}
+
+#formButton {
+    font-family: roboto slab; 
+    color:rgb(40, 38, 38);
+}
+
+.treeHugger {
+    position: fixed;  
+    bottom:0;
+    right:0;
+}
+
+.treeHugger2 {
+    position: fixed;  
+    bottom:0;
+    left:0;
+}
+
+.eachPlant {
+    display: flex;
+    flex-direction: row;
+    height: 230px; 
+    width: 230px; 
+    margin: auto; 
+}
+
+.allPlantImg {
+    border-radius: 20px; 
+    display: block;
+
+}
+
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    background-color: rgba(1, 5, 2, 0.637);
+}
+
+.modalContents {
+    width: 700px; 
+    height: 300px; 
+    background-color: #a3b18a;
+    margin: auto; 
+    margin-top: 25%; 
+    border-radius: 20px; 
+}
+
+.modalText {
+    padding: 30px; 
+    font-family: roboto slab; 
+    color:rgb(40, 38, 38);
+}
+
+#deleteLogo {
+    width: 300px; 
+}
+
+.deleteFormWrapper {
+    display: flex;
+    background-color: #337233;
+    height: 500px; 
+    width: 700px; 
+    border-radius: 30px; 
+    margin: auto; 
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.deleteFormSection {
+    padding-top: 20px;
+    height: 350px; 
+    width: 550px; 
+    background-color: #a3b18a; 
+    margin: auto; 
+    border-radius: 30px; 
+    line-height: 1.8;
+}
+
+.deleteFormSection input {
+    float: right; 
+    margin-right: 10px; 
+    border-radius: 3px; 
+    padding-right: 150px; 
+}
+
+.deleteFormText {
+    font-family: roboto slab; 
+    color:rgb(40, 38, 38);
+    padding-left: 20px; 
+    padding-top: 50px; 
+    padding-bottom: 50px; 
+}
+
+#centerDelete {
+    margin-left: 125px; 
+    margin-right: 125px; 
+}
